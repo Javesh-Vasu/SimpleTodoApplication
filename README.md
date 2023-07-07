@@ -17,14 +17,15 @@ FrontEND:-
     -add new todo
 
 How to Build
-git clone git@github.com:Javesh-Vasu/SimpleTodoApplication.git
-cd SimpleTodo/FrontEnd/SimpleTodoApp
-npm install
-npm run dev
+A) Open terminal
+1.) git clone git@github.com:Javesh-Vasu/SimpleTodoApplication.git
+2.) cd SimpleTodo/FrontEnd/SimpleTodoApp
+3.) npm install
+4.) npm run dev
 
-Open another terminal
-cd SimpleTodo/Backend
-npm install
-node todoServer.js
+B) Open another terminal
+1.) cd SimpleTodo/Backend
+2.) npm install
+3.) node todoServer.js
 
 
