@@ -6,7 +6,7 @@ import "./App.css";
 
 async function fetchTodos() {
   try {
-    const response = await fetch("https://simple-todo-application-sigma.vercel.app/todos", {
+    const response = await fetch("https://simple-todo-application-b.vercel.app/todos", {
       method: "GET",
     });
     const data = await response.json();
@@ -27,7 +27,7 @@ function App() {
   }, []);
 
   const deleteTodo = async (id) => {
-    await fetch("https://simple-todo-application-sigma.vercel.app/todos/" + id, {
+    await fetch("https://simple-todo-application-b.vercel.app/todos/" + id, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -125,7 +125,7 @@ function AddTodo(props) {
       alert("title or description is empty");
       return;
     }
-    await fetch("https://simple-todo-application-sigma.vercel.app/todos", {
+    await fetch("https://simple-todo-application-b.vercel.app/todos", {
       method: "POST",
       body: JSON.stringify({
         title: title,
