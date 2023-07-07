@@ -1,4 +1,3 @@
-
 A simple todo application based on MERN stack doing CRUD operations
 
 Deployed Link:- https://simple-todoapplication.vercel.app/
