@@ -8,6 +8,11 @@ app.use(bodyParser.json());
 
 let todos = [];
 
+
+app.get("/", (req, res) => {
+    res.json("Hello");
+})
+
 app.get('/todos', (req, res) => {
   res.json(todos);
 });
